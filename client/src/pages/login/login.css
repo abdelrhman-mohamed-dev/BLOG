@@ -1,0 +1,52 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+}
+.login-title {
+  font-size: 50px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.login-form > label {
+  margin: 10px 0;
+}
+.login-input {
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+}
+.login-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.login-btn:disabled {
+  cursor: not-allowed;
+  background-color: rgb(225, 173, 173);
+}
+.login-reg-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  color: #615a5a;
+  border-radius: 10px;
+  width: 230px;
+  padding: 10px;
+}
